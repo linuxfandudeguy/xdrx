@@ -1,7 +1,7 @@
 
 # `xdrx`
 
-> **NOTE FROM DEV:** This is the only occasion ever where I will use electron, in my opinion electron is hot trash because it takes up lots of memory, but for occasions like this, it is very useful.
+> **NOTE FROM DEV:** This is the only occasion ever where I will use electron, in my opinion electron is hot trash because it takes up lots of memory, but for occasions like this, it is very useful. Also, this project was inspired by facedev's [bruh](https://github.com/face-hh/bruh/) image file type.
 
 ## Overview
 
@@ -34,7 +34,7 @@ pnpm add -g xdrx
 To convert an image to the `.xdrx` format, you must specify the input file first, followed by the desired output file name:
 
 ```bash
-xdrx convert path/to/input-image.png output-file.xdrx
+xdrx convert path/to/input-image.png output-file
 ```
 
 This command will convert `input-image.png` to `output-file.xdrx`. Make sure to provide the correct path to the input image and specify the name of the output `.xdrx` file.
