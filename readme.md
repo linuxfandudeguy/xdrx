@@ -63,4 +63,4 @@ To contribute:
 
 ## Contact
 
-For questions or issues, open an issue on the [GitHub repo](https://github.com/username/xdrx).
+For questions or issues, open an issue on the [GitHub repo](https://github.com/linuxfandudeguy/xdrx).
