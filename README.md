@@ -1,6 +1,8 @@
 
 # `xdrx`
 
+> **NOTE FROM DEV:** This is the only occasion ever where I will use electron, in my opinion electron is hot trash because it takes up lots of memory, but for occasions like this, it is very useful.
+
 ## Overview
 
 `xdrx` is a custom image file format where each pixel is represented by a hex color value, with each new line of pixels starting on a new line. It allows you to convert images to the `.xdrx` format and view them in a draggable window.
