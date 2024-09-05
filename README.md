@@ -3,6 +3,8 @@
 
 > **NOTE FROM DEV:** This is the only occasion ever where I will use electron, in my opinion electron is hot trash because it takes up lots of memory, but for occasions like this, it is very useful. Also, this project was inspired by facedev's [bruh](https://github.com/face-hh/bruh/) image file type.
 
+> if you don't want to run the command to make the images the yourself, then there is plenty of images you can use in the `examples` folder
+
 ## Overview
 
 `xdrx` is a custom image file format where each pixel is represented by a hex color value, with each new line of pixels starting on a new line. It allows you to convert images to the `.xdrx` format and view them in a draggable window.
