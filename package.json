@@ -1,6 +1,6 @@
 {
   "name": "xdrx",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A custom image file format where each pixel is represented by a hex color value.",
   "main": "src/index.js",
   "bin": {
