@@ -59,6 +59,56 @@ To contribute:
 4. Push to your fork.
 5. Create a Pull Request.
 
+## Installing necessary files
+To install all of the files normally you would run:
+
+```bash
+npm install xdrx@latest
+```
+A file that is responsible for opening windows (`electron.js`) is for some reason is not installed with it.
+
+To install it run this command:
+```bash
+cat <<EOF > electron.js
+const { app, BrowserWindow } = require('electron');
+const path = require('path');
+
+// Create a new browser window
+function createWindow() {
+    const win = new BrowserWindow({
+        width: 800,
+        height: 600,
+        webPreferences: {
+            nodeIntegration: true,
+        },
+    });
+
+    // Load the local server (localhost:3000)
+    win.loadURL('http://localhost:3000');
+
+    // Optional: Open DevTools for debugging
+    // win.webContents.openDevTools();
+}
+
+// Initialize the Electron app
+app.whenReady().then(() => {
+    createWindow();
+
+    app.on('activate', () => {
+        if (BrowserWindow.getAllWindows().length === 0) {
+            createWindow();
+        }
+    });
+});
+
+// Quit when all windows are closed (except on macOS)
+app.on('window-all-closed', () => {
+    if (process.platform !== 'darwin') {
+        app.quit();
+    }
+});
+EOF
+```
 ## License
 
 `xdrx` is licensed under the [ISC License](LICENSE).
