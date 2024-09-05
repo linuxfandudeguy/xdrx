@@ -1,0 +1,21 @@
+{
+  "name": "xdrx",
+  "version": "1.0.0",
+  "description": "A custom image file format where each pixel is represented by a hex color value.",
+  "main": "src/index.js",
+  "bin": {
+    "xdrx": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "electron": "^32.0.2",
+    "express": "^4.19.2",
+    "ora": "^8.1.0",
+    "sharp": "^0.31.3"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
