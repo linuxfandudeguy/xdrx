@@ -65,7 +65,7 @@ To contribute:
 To install all of the files normally you would run:
 
 ```bash
-npm install xdrx@latest
+npm install -g xdrx@latest 
 ```
 A file that is responsible for opening windows (`electron.js`) is for some reason is not installed with it.
 
