@@ -62,6 +62,12 @@ To contribute:
 5. Create a Pull Request.
 
 ## Installing necessary files
+Installing needed packages:
+
+```bash
+sudo apt install -y libx11-dev libxkbcommon-x11-dev libx11-xcb-dev libxcomposite-dev libxdamage-dev libxrandr-dev libxfixes-dev libxcursor-dev libxtst-dev libnss3 libatk-bridge2.0-dev libgtk-3-dev libasound2-dev
+```
+
 To install all of the files normally you would run:
 
 ```bash
